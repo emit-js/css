@@ -20,5 +20,5 @@ require("@dot-event/css")(dot)
 ## Usage
 
 ```js
-dot.css({ href: "my.css" }) // append css and return <link> element
+dot.css({ href: "/my.css" }) // append and return <link> element
 ```
