@@ -1,10 +1,9 @@
 /* global document */
-module.exports = function(dot, opts) {
-  if (dot.state.css) {
+module.exports = function(dot) {
+  if (dot.css) {
     return
   }
 
-  dot.state.css = opts || {}
   dot.any("css", css)
 }
 
