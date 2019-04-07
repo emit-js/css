@@ -1,6 +1,6 @@
 {
   "name": "@emit-js/css",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "emit css dom append",
   "keywords": [
     "emit",
@@ -23,7 +23,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@emit-js/emit": "3.2.8",
+    "@emit-js/emit": "3.2.9",
     "eslint": "5.16.0",
     "eslint-config-prettier": "4.1.0",
     "eslint-plugin-prettier": "3.0.1",
