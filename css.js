@@ -1,13 +1,13 @@
 /* global document */
-module.exports = function(dot) {
-  if (dot.css) {
+module.exports = function(emit) {
+  if (emit.css) {
     return
   }
 
-  dot.any("css", css)
+  emit.any("css", css)
 }
 
-function css(prop, arg) {
+function css(arg) {
   var link = document.createElement("link")
 
   link.type = "text/css"

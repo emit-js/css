@@ -1,14 +1,14 @@
 /* global document */
 /* eslint-env jest */
 
-var dot = require("dot-event")(),
+var emit = require("@emit-js/emit")(),
   JSDOM = require("jsdom").JSDOM
 
 var window = new JSDOM().window
 
-require("./")(dot)
+require("./")(emit)
 
-var css = dot.css
+var css = emit.css
 
 global.document = window.document
 

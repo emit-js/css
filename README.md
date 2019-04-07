@@ -1,24 +1,24 @@
-# @dot-event/css
+# @emit-js/css
 
-[dot-event](https://github.com/dot-event/dot-event#readme) css
+[emit](https://github.com/emit-js/emit#readme) css dom append
 
 ![css](css.gif)
 
 ## Install
 
 ```js
-npm install dot-event @dot-event/css
+npm install @emit-js/emit @emit-js/css
 ```
 
 ## Setup
 
 ```js
-const dot = require("dot-event")
-require("@dot-event/css")(dot)
+const emit = require("@emit-js/emit")
+require("@emit-js/css")(emit)
 ```
 
 ## Usage
 
 ```js
-dot.css({ href: "/my.css" }) // append and return <link> element
+emit.css({ href: "/my.css" }) // append and return <link> element
 ```
